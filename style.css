@@ -14,9 +14,41 @@ img{
 }
 img:hover{
     transition: 2s all ease;
-    transform: scale(1.2) rotate(360deg);
-}
-
-li {
-    list-style-type:disc;
-}
+    transform: scale(1.2) rotate(360deg);}
+    @font-face {
+        font-family:Roboto;
+        src: url(/fonts/Roboto-Medium.ttf);
+    }
+    
+    *{
+        margin: 5;
+        padding: 5;
+        box-sizing: border-box;
+    }
+    
+    ul, ol{
+        font-family: roboto;
+    }
+    
+    
+    button{
+        box-shadow: -5px 0px 6px solid rgb(76, 2, 2);
+       background-color: rgb(255, 255, 255);
+       border: 3px black;
+       border-radius: 4px;
+       height: 40px;
+       width: 80px;
+    }
+    button:hover{
+        transform: scale(1.2);
+        background-color: rgb(6, 148, 150);
+    }
+    
+    dt{
+        background: rgb(4, 127, 141);
+        background: radial-gradient(circle, rgb(78, 135, 219) 0%, rgb(31, 139, 155) 100%);
+        text-shadow: 2px solid black;
+    }
+    dd{
+color: rgb(255, 255, 255);
+    }
