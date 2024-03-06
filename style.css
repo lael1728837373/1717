@@ -1,0 +1,22 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    margin:auto;
+    width: 600;
+    height: 400;
+    border: 3px solid rgb(228, 14, 14);
+    border-radius: 100%;
+}
+img:hover{
+    transition: 2s all ease;
+    transform: scale(1.2) rotate(360deg);
+}
+
+li {
+    list-style-type:disc;
+}
